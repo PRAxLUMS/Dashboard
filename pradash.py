@@ -2,6 +2,8 @@ import dash
 from dash import dcc, html
 import dash.dependencies as dd
 import pandas as pd
+import pyarrow
+import fastparquet
 import plotly.graph_objects as go
 
 # Define the file path for the preprocessed Parquet file
