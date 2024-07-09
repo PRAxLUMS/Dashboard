@@ -96,7 +96,7 @@ def render_page_content(page):
             mapbox=dict(
                 center=dict(lat=data_to_show['latitude_combined'].mean(), lon=data_to_show['longitude_combined'].mean()),
                 zoom=10,
-                style="carto-positron"
+                style="open-street-map"
             ),
             margin={"r":0,"t":0,"l":0,"b":0},
             legend=dict(
