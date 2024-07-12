@@ -5,7 +5,7 @@ import pandas as pd
 import plotly.graph_objects as go
 
 # Define the file path for the preprocessed Parquet file
-parquet_file_path = "D:\\Dropbox\\PRA\\Output\\_10_Timestamped Maps\\Updated_Filtered_Restaurants.parquet"
+parquet_file_path = "data/Filtered_Restaurants.parquet"
 
 # Load and preprocess the dataset
 df = pd.read_parquet(parquet_file_path)
